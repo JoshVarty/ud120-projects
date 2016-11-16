@@ -16,7 +16,12 @@
 """
 
 import pickle
+from pandas import DataFrame
 
-enron_data = pickle.load(open("../final_project/final_project_dataset.pkl", "r"))
+enron_data = pickle.load(open("C:\\Users\\Josh\\Documents\\GitHub\\ud120-projects\\final_project\\final_project_dataset.pkl", "r"))
+
+
+data = DataFrame(enron_data)
+x = enron_data;
 
 
